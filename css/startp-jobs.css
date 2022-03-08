@@ -1,0 +1,576 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  nav{
+    background: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    z-index: 9;
+    padding-bottom: 0px;
+  }
+  .logo{
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .logo:hover{
+    color: white;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li a{
+    text-decoration: none;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+  }
+  nav ul li .link{
+    color: black;
+    display: block;
+    width: 100px;
+    margin-right: 20px;
+    background: none;
+    text-align: center;
+    font-size: 14px;
+  }
+  a.active,a.link:hover{
+    color: black;
+    border-bottom: 3px solid #8E4D9F;
+    transition: .5s;
+  }
+ #navbarDropdown{  
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    padding-top:5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+  }
+  .nav ul:last-child #navbarDropdown{
+    color: black;
+  
+  }
+  #navbarDropdown:hover{
+    color: #8E4D9F;
+    transition: .5s;
+  }
+  .signin{
+    border: solid #000000 1px;
+    text-align: center;
+    font-size: 14px;
+    color:black;
+    padding-top:5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border-radius: 5px; 
+  }
+  .signin:hover{
+    background: #8E4D9F;
+    color: white;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+  /** Navigation ends here **/
+
+  /** First Container **/
+
+.first-container{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #8E4D9F;
+    width: 100%;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  
+  .inner-content{
+    width: 80%;
+    margin: auto;
+  }
+  .inner-content p{
+    font-size: 14px;
+  }
+  .coin{
+    display: none;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .become {
+    -webkit-border-radius: 5;
+    border: solid white 1px;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 14px;
+    background: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: 9%;
+    margin-top: 5px;
+  }
+  
+  .become:hover {
+    background: #F9AD5E;
+    text-decoration: none;
+  }
+  /** Categories Styling **/
+
+  .categories{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 5%;
+  }
+  .categories h3{
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+.btn-primary{
+    background: #8E4D9F;
+    border: none;
+}
+.btn-primary:hover{
+    background: #F9AD5E;
+}
+.categories-links{
+    text-decoration: none;
+}
+/* The Box-like links editing starts here */
+
+.link-tiles {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #8E4D9F26;
+    border-radius: 4px;
+    height: 137px;
+}
+.link-tiles a {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    color: #8E4D9F;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.link-tiles:hover {
+    background: #8E4D9F;
+    transition: all, 0.4s, ease;
+}
+.link-tiles:hover a {
+    color: #f1f1f1;
+}
+/* Second container */
+.second-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.second-container h3{
+    text-align: center;
+}
+.card{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.img-fluid{
+    height: 100%;
+}
+.fintech{
+    color: #8E4D9F;
+    padding-left: 5px;
+}
+.view-more{
+    margin-top: 1rem;
+}
+.view-jobs{
+    text-align: center;
+}
+.more-jobs{
+    border-color: #8E4D9F;
+}
+.more-jobs:hover{
+    background: #8E4D9F;
+    color: white;
+}
+/* NEW CONTAINER */
+.new-container{
+    background-image: url("../img/Group\ 4997\ \(1\).png");
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: white;
+}
+.new-container h3{
+    line-height: 1.5;
+    font-weight: bold;
+    padding-bottom: 1%;
+    padding-left: 4%;
+}
+.new-container p{
+    width: 50%;
+    font-size: 14px;
+    padding-left: 4%;
+    
+}
+.find-job{
+    color: #8E4D9F;
+    background:white;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+.find-a-job{
+    padding-left: 4%;
+}
+.find-job:hover{
+    color: white;
+    background: #8E4D9F;
+}
+/* ADDED CONTAINER */
+
+.people{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .second-lorem{
+    width: 60%;
+    margin: auto;
+  }
+  .demo{
+    margin-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .demo h4{
+    font-weight: bolder;
+    line-height: 1.5;
+  }
+  #start{
+    background: #FCD8B3;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 55px;
+    padding-bottom: 50px;
+  }
+  #invest{
+    background: #FCD8B3;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 55px;
+    padding-bottom: 50px;
+  }
+/* LAST CONTAINER */
+/** Last container**/
+.last-container{
+    background: #E7DAEB;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    text-align: center;
+  }
+  .last-container h3{
+    line-height: 1.5;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    font-family: "poppins";
+  }
+  .last-container p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+    font-size: 14px;
+    width: 89%;
+  }
+  .email{
+    background: white;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-radius: 4px;
+    border-color: white;
+    height: 36px;
+  }
+  .email:focus{
+      outline: none;
+  }
+  #subsc{
+    color: white;
+    background: #8E4D9F;
+  }
+  /**footer **/
+
+#my-footer{
+    background: #8E4D9F;
+    padding-bottom: 50px;
+  }
+  #piapay{
+    color: white;
+  }
+  #quick-lines a{
+    color: white;
+  }
+  #quick-link{
+    color: white;
+    font-size: 14px;
+  }
+  .col h5{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  #quick-links{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .quick-links{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .fa-brands{
+    color:  white;
+  }
+  .col ul li a:hover{
+    color: #E7DAEB;
+  }
+    
+
+
+
+
+
+
+
+
+  
+
+
+/** Media Queries **/
+
+/** Media query for Nav **/
+@media (max-width: 952px){
+    .logo{
+      padding-left: 50px;
+    }
+  
+    nav ul li a{
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #F9AD5E;
+      top: 60px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+      text-align: center;
+    }
+    nav ul li a{
+      font-size: 14px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #8E4D9F;
+    }
+    #check:checked ~ ul{
+      left: 0;
+      margin: auto;
+    }
+  }
+
+  
+/** Media Queries for First Container **/
+@media (min-width: 600px) {
+    .coin{
+      float: right;
+      display: unset;
+      width: 60%;
+      height: 50%;
+    }
+    .first-container .about-us,.descrip{
+      text-align: left;
+      line-height: 1.5;
+    }
+  
+    .descrip{
+      width: 50%;
+      font-weight: 500;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 950px) {
+    .coin{
+      float: right;
+      width: 60%;
+      height: 50%;
+      margin-top: 30px;
+    }
+    .descrip{
+      width: 50%;
+      font-weight: 500;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .become{
+        width: 50%;
+        margin-left: 10%;
+    }
+    /** ADEDD CONTAINER */
+
+    .people{
+        margin-top: 5%;
+        text-align: center;
+        line-height: 1.5;
+        padding-bottom: 10px;
+      }
+      #learn-more{
+        margin-right: 10%;
+      }
+      .demo{
+        text-align: center;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: auto;
+        margin-top: 40px;
+      }
+      #start{
+        margin:auto;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      #invest{
+        margin:auto;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      /* PARTNERS SECTION */
+
+      .our-part{
+        margin-top: 3%;
+        margin-bottom: 8%;
+        text-align: center;
+      }
+      .partners{
+        padding: 0 15%;
+        margin-bottom: 5%;
+      }
+      /**lasy container**/
+      #subsc{
+        width: 10%;
+      }
+      .email{
+        width:30%;
+      }
+      .last-container p{
+        width: 50%;
+        padding-bottom: 20px;
+      }
+
+        /*footer*/
+.fa-brands{
+    padding-right: 5px;
+  }
+  .col{
+    padding-left: 5%;
+  }
+}
+
+
+/** Media Querie for Categories **/
+@media (max-width: 992px) and (min-width: 768px) {
+    .link-tiles {
+        height: 100px;
+   }
+}
+@media (max-width: 768px) {
+    .link-tiles {
+        height: 90px;
+   }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .link-tiles a {
+        padding-left: 15px;
+        font-size: 15px;
+        line-height: 18px;
+   }
+}
+@media (max-width: 768px) {
+    .link-tiles a {
+        font-size: 14px;
+        line-height: 18px;
+        padding-left: 15px;
+   }
+}
+@media (max-width: 350px) {
+    .link-tiles a {
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: auto;
+        margin-right: auto;
+   }
+}

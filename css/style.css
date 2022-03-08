@@ -9,82 +9,34 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
-nav{
+.navbar-light{
   background: white;
-  height: 60px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
   padding-left: 25px;
-  padding-right: 25px;
-  z-index: 9;
-  padding-bottom: 0px;
-}
-.logo{
-  margin-left: 100px;
-  margin-top: 20px;
-}
-.logo:hover{
-  color: white;
-}
-nav ul{
-  float: right;
-  margin-right: 20px;
-}
-nav ul li a{
-  text-decoration: none;
+  padding-right: 40px;
 }
 nav ul li{
-  display: inline-block;
-  line-height: 50px;
-  margin: 0 5px;
-}
-nav ul li .link{
   color: black;
-  display: block;
-  width: 100px;
-  margin-right: 20px;
-  background: none;
-  text-align: center;
-  font-size: 14px;
 }
-a.active,a.link:hover{
+.nav-link{
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+a.active, a.nav-link:hover{
   color: black;
   border-bottom: 3px solid #8E4D9F;
   transition: .5s;
 }
-#navbarDropdown{  
-  text-align: center;
-  font-size: 14px;
-  color: black;
-  padding-top:5px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-radius: 5px;
-}
-.nav ul:last-child  #navbarDropdown{
-  color: black;
-
+.navbar-light .navbar-toggler-icon{
+  stroke: black;
 }
 #navbarDropdown:hover{
   color: #8E4D9F;
   transition: .5s;
 }
-.signin{
-  border: solid #000000 1px;
-  text-align: center;
-  font-size: 14px;
-  color:black;
-  padding-top:5px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 5px;
-  border-radius: 5px; 
-}
-.signin:hover{
-  background: #8E4D9F;
-  color: white;
+.dropdown-item:hover{
+  color: black;
+  border-bottom: 3px solid #8E4D9F;
   transition: .5s;
 }
 .checkbtn{
@@ -161,11 +113,13 @@ a.active,a.link:hover{
 .become:hover {
   background: #F9AD5E;
   text-decoration: none;
+  border: none;
 }
 .investor{
   margin: 30px auto;
+  margin-left: 35px;
   text-align: left;
-  width: 80%;
+  width: 100%;
 }
 
 /** Styling The Second container **/
@@ -194,7 +148,7 @@ a.active,a.link:hover{
 }
 
 #bg-image{
-  margin-top: -80px;
+  margin-top: -30px;
 }
 #img1{
   padding-left: 0;
@@ -214,7 +168,7 @@ a.active,a.link:hover{
   text-align: center;
   line-height: 1.5;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 35px;
   padding-bottom: 30px;
 }
 .vid{
@@ -234,6 +188,7 @@ a.active,a.link:hover{
   background: #8E4D9F;
 }
 .people{
+  text-align: center;
   width: 80%;
   margin: auto;
   padding-top: 30px;
@@ -287,6 +242,7 @@ a.active,a.link:hover{
   border-radius: 4px;
   margin-top: 5%;
   font-size: 14px;
+  padding-top: 25px;
 }
 #renata{
   border: 1px solid #F9AD5E;
@@ -294,6 +250,7 @@ a.active,a.link:hover{
   box-shadow: 0px 4px 4px 4px rgba(25, 54, 75, 0.1);
   border-radius: 4px;
   font-size: 14px;
+  padding-top: 25px;
 }
 #maryam{
   border: 1px solid #F9AD5E;
@@ -302,6 +259,7 @@ a.active,a.link:hover{
   border-radius: 4px;
   margin-top: 5%;
   font-size: 14px;
+  padding-top: 25px;
 }
 #okon{
   border: 1px solid #F9AD5E;
@@ -311,6 +269,10 @@ a.active,a.link:hover{
   margin-top: 5%;
   margin-bottom: 5%;
   font-size: 14px;
+  padding-top: 25px;
+}
+blockquote{
+  font-size: 12px;
 }
 .our-part{
   margin-bottom: -3%;
@@ -355,6 +317,12 @@ a.active,a.link:hover{
   background: #8E4D9F;
 }
 /**footer **/
+.foot .col ul li{
+  font-size: 12px;
+}
+.foot .col ul li a{
+  font-size: 12px;
+}
 
 #my-footer{
   background: #8E4D9F;
@@ -399,48 +367,7 @@ a.active,a.link:hover{
 
 /** Media Queries **/
 
-/** Media query for Nav **/
-@media (max-width: 952px){
-  .logo{
-    padding-left: 50px;
-  }
 
-  nav ul li a{
-    font-size: 14px;
-  }
-}
-@media (max-width: 858px){
-  .checkbtn{
-    display: block;
-  }
-  ul{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #F9AD5E;
-    top: 60px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-  nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-    text-align: center;
-  }
-  nav ul li a{
-    font-size: 14px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #8E4D9F;
-  }
-  #check:checked ~ ul{
-    left: 0;
-    margin: auto;
-  }
-}
 
 /** Media Queries for First Container **/
 @media (min-width: 600px) {
@@ -452,7 +379,11 @@ a.active,a.link:hover{
     text-align: left;
     line-height: 1.5;
   }
-
+  .investor{
+    margin: 30px auto;
+    text-align: left;
+    width: 80%;
+  }
   .descrip{
     width: 50%;
     font-weight: 500;
@@ -502,6 +433,22 @@ a.active,a.link:hover{
 
 
 @media (min-width: 950px) {
+  /* Nav */
+  #signin{
+    border: solid #000000 1px;
+    color:black;
+    padding-top:10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-radius: 5px; 
+  }
+  #signin:hover{
+    color: white;
+    background: #8E4D9F;
+    transition: .5s;
+  }
+  /* nav ends here */
   .coin{
     height: 70%;
     width: 70%;

@@ -14,25 +14,31 @@
     <script src="https://kit.fontawesome.com/d972efdfc6.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <a href=""><img src="img/Artboard 2 copy 3 2.png" alt="logo" class="logo"></a>
-      <ul>
-        <li ><a href="index.html" class="link"  >Home</a></li>
-        <li><a href="#about-us" class="link">About Us</a></li>
-        <li><a href="" class="active link">Startup Jobs</a></li>
-        <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sign up</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Sign up as a Startup</a></li>
-                <li><a class="dropdown-item" href="#">Sign up as an Investor</a></li>
-            </ul>
-        </li>
-        <li ><a href="signin.html" class="signin">Sign in</a></li>
-      </ul>
-    </nav>
+    
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href=""><img src="img/Artboard 2 copy 3 2.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
+      <li class="nav-item"><a href="startup-jobs.html" class="nav-link active">Startup Jobs</a></li>
+      <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle signup" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Sign up</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Sign up as a Startup</a></li>
+            <li><a class="dropdown-item" href="#">Sign up as an Investor</a></li>
+        </ul>
+    </li>
+    <li class="nav-item"><a href="" class="nav-link" id="signin">Sign in</a></li>
+  </ul>
+  </div>
+</nav>
+
     <div class="first-container">
           <div class="inner-content">
             <span class="imgc"><img class="coin" src="img/image-removebg-preview (14) 1.png"></span>

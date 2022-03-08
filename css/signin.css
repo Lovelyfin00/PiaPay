@@ -92,7 +92,7 @@
     font-size: 13px;
     font-weight: 600;
     line-height: 15px;
-    margin: 0 40%;
+    margin: 0 45%;
     text-transform: uppercase;
  }
 /**end**/
@@ -103,7 +103,8 @@
     background: #FCD8B3;
     color: black;
     border-style: none;
-    margin-top: 15px;
+    margin-top: 10px;
+    padding: 10px 0;
 }
 .sign-in-with:hover{
     background: #F9AD5E;
@@ -194,7 +195,7 @@
         font-size: 13px;
         font-weight: 600;
         line-height: 15px;
-        margin: 0 40%;
+        margin: 0 45%;
         text-transform: uppercase;
      }
      /* all writeup */

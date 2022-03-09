@@ -16,7 +16,7 @@ body{
 .navbar-light{
   background: white;
   padding-left: 25px;
-  padding-right: 40px;
+  padding-right: 100px;
 }
 nav ul li{
   color: black;
@@ -442,20 +442,7 @@ blockquote{
 
 @media (min-width: 950px) {
   /* Nav */
-  #signin{
-    border: solid #000000 1px;
-    color:black;
-    padding-top:10px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 10px;
-    border-radius: 5px; 
-  }
-  #signin:hover{
-    color: white;
-    background: #8E4D9F;
-    transition: .5s;
-  }
+
   /* nav ends here */
   .coin{
     height: 70%;

@@ -12,7 +12,7 @@
   .navbar-light{
     background: white;
     padding-left: 25px;
-    padding-right: 40px;
+    padding-right: 100px;
   }
   nav ul li{
     color: black;
@@ -62,7 +62,7 @@
     margin-left: auto;
     margin-right: auto;
     background: #8E4D9F;
-    width: 100%;
+    width: 110%;
     color: white;
     padding-top: 50px;
     padding-bottom: 80px;

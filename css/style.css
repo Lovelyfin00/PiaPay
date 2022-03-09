@@ -6,8 +6,12 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.container-fluid{
+  padding: 3% 35%;
+}
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 .navbar-light{
   background: white;
@@ -61,7 +65,6 @@ a.active, a.nav-link:hover{
   margin-left: auto;
   margin-right: auto;
   background: #8E4D9F;
-  width: 100%;
   color: white;
   padding-top: 50px;
   padding-bottom: 100px;
@@ -81,16 +84,11 @@ a.active, a.nav-link:hover{
   margin: 0 auto;
 }
 .find {
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
   border-radius: 5px;
-  font-family: Arial;
   color: black;
   font-size: 14px;
   background: white;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  margin-right: 20px;
+  border: none;
 }
 
 .find:hover {
@@ -98,16 +96,11 @@ a.active, a.nav-link:hover{
   text-decoration: none;
 }
 .become {
-  -webkit-border-radius: 5;
   border: solid white 1px;
-  -moz-border-radius: 5;
   border-radius: 5px;
-  font-family: Arial;
   color: white;
-  font-size: 14px;
   background: none;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+  margin-left: 2%;
 }
 
 .become:hover {
@@ -116,10 +109,7 @@ a.active, a.nav-link:hover{
   border: none;
 }
 .investor{
-  margin: 30px auto;
-  margin-left: 35px;
-  text-align: left;
-  width: 100%;
+  margin-left: 10%;
 }
 
 /** Styling The Second container **/
@@ -366,8 +356,26 @@ blockquote{
 
 
 /** Media Queries **/
+/* for find investor button */
+@media only screen and (max-width:374px) and (min-width: 200px) {
+  .become{
+    margin-top:2%;
+    margin-left: -1%;
+  }
+}
 
+@media only screen and (max-width:374px) and (min-width: 734px) {
+  .become{
+    margin-top:2%;
+    margin-left: -1%;
+  }
+}
 
+@media only screen and (max-width:859px) and (min-width: 734px) {
+  .become{
+    margin-top:2%;
+  }
+}
 
 /** Media Queries for First Container **/
 @media (min-width: 600px) {

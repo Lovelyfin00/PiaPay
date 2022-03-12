@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+
+ul li .profile:hover{
+    background: #8E4D9F;
+    color: white;
+}
+.pitch:hover{
+    background: #8E4D9F;
+    color: white;
+}
+ul li .dash{
+    background-color: #8E4D9F;
+    color: white;
+}
+.dropdown-menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dropdown-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pitch-vid{
+    color: #8E4D9F;
+    font-weight: bold;
+    padding-left: 10%;
+}
+
+.containerm {
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6%;
+}
+.inner-container{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+/* styling image effect*/
+.image {
+    overflow: hidden;
+    height: 300px;
+    width: 150%;
+    position: relative;
+    cursor: pointer;
+    margin: 0 15px;
+    box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
+    transition: .5s;
+    background-color: white;
+}
+
+.image:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-140%, -50%);
+    background-color: #8E4D9F;
+    opacity: 0.3;
+    border-radius: 50%;
+    transition: .8s
+}
+
+.image:hover:after {
+    transform: translate(-50%, -50%)
+}
+
+.image:hover .bg-img {
+    transform: translate(-50%, -50%) scale(1.3) rotate(20deg)
+}
+
+.bg-img {
+    position: absolute;
+    height: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .8s
+}
+
+i {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-2000px, -50%);
+    color: #fff;
+    transition: .8s;
+    transition-timing-function: ease-in
+}
+
+.image:hover i {
+    transform: translate(-50%, -50%);
+    transition-timing-function: ease
+}
+/* Ends Here */
+.cat{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Styling box like categories */
+
+.link-tiles {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #8E4D9F26;
+    border-radius: 4px;
+    height: 137px;
+}
+.link-tiles a {
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    color: #8E4D9F;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.link-tiles:hover {
+    background: #8E4D9F;
+    transition: all, 0.4s, ease;
+}
+.link-tiles:hover a {
+    color: #f1f1f1;
+}
+.link-tiles .active{
+    color: white;
+    background: #8E4D9F;
+    border-radius: 4px;
+}
+/* Pitches cat */
+.tech-starups{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background: #F2F1F1;
+}
+.card-title{
+    color: #8E4D9F;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 14px;
+}
+
+.learn-more{
+    background: none;
+    border: 1px solid black;
+    color: black;
+}
+.learn-more:hover{
+    border: none;
+    color: white;
+    background: #8E4D9F;
+}
+/* Pagination */
+
+.page-link:hover{
+    background: #8E4D9F;
+    color: white;
+}
+
+nav ul li .active{
+    background: #8E4D9F;
+    color: white;
+}
+.pagination{
+    margin-top:10%;
+}

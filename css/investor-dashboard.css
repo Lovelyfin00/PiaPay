@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  }
+
+ul li .profile:hover{
+    background: #8E4D9F;
+    color: white;
+}
+.pitch:hover{
+    background: #8E4D9F;
+    color: white;
+}
+ul li .dash{
+    background-color: #8E4D9F;
+    color: white;
+}
+.dropdown-menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dropdown-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Carousel */
+.slide{
+    width: 100%;
+    margin-top: -1.5%;
+}
+/* popular pitches */
+.card{
+    border: none;
+}
+.popular{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.all-card{
+    margin-bottom: 1%;
+}
+.card-body h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 14px;
+}
+.pop-invest{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* styling button */
+.learn-more{
+    background: none;
+    border: 1px solid black;
+    color: black;
+}
+.learn-more:hover{
+    border: none;
+    color: white;
+    background: #8E4D9F;
+}
+.view-profile{
+    background: none;
+    border: 1px solid black;
+    color: #8E4D9F;
+}
+.view-profile:hover{
+    background: #8E4D9F;
+    color: white;
+}
+/* Popular Investor */
+.investor{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+/* tyling h2 */
+.heading{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+/* checkbox */
